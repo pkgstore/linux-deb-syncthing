@@ -1,0 +1,2 @@
+syncthing usr/bin
+*.service etc/systemd/system/syncthing.service.d
