@@ -1,3 +1,9 @@
+syncthing (1.18.3-101) unstable; urgency=medium
+
+  * FIX: Systemd module.
+
+ -- Package Store <kitsune.solar@gmail.com>  Thu, 21 Oct 2021 12:49:00 +0000
+
 syncthing (1.18.3-100) unstable; urgency=medium
 
   * Initial Release
