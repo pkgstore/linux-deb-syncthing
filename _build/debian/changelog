@@ -1,11 +1,17 @@
+syncthing (1.18.4-100) unstable; urgency=medium
+
+  * NEW: Syncthing v1.18.4.
+
+ -- Package Store <kitsune.solar@gmail.com>  Thu, 21 Oct 2021 12:49:00 +0300
+
 syncthing (1.18.3-101) unstable; urgency=medium
 
   * FIX: Systemd module.
 
- -- Package Store <kitsune.solar@gmail.com>  Thu, 21 Oct 2021 12:49:00 +0000
+ -- Package Store <kitsune.solar@gmail.com>  Thu, 21 Oct 2021 12:49:00 +0300
 
 syncthing (1.18.3-100) unstable; urgency=medium
 
   * Initial Release
 
- -- Package Store <kitsune.solar@gmail.com>  Thu, 21 Oct 2021 12:00:00 +0000
+ -- Package Store <kitsune.solar@gmail.com>  Thu, 21 Oct 2021 12:00:00 +0300
