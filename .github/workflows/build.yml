@@ -13,7 +13,7 @@ jobs:
       - uses: pkgstore/github-action-deb-build@main
         with:
           git_repo_src: "https://github.com/${{ github.repository }}.git"
-          git_repo_dst: "https://github.com/deb-store/syncthing.git"
+          git_repo_dst: "https://github.com/deb-store/${{ env.PKG_NAME }}.git"
           git_user: "${{ secrets.GIT_BOT_NAME }}"
           git_email: "${{ secrets.GIT_BOT_EMAIL }}"
           git_token: "${{ secrets.GIT_BOT_TOKEN }}"
