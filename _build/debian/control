@@ -1,8 +1,8 @@
 Source: syncthing
 Section: utils
 Priority: optional
-Maintainer: Package Store <kitsune.solar@gmail.com>
-Uploaders: Package Store <kitsune.solar@gmail.com>
+Maintainer: Package Store <pkgstore@mail.ru>
+Uploaders: Package Store <pkgstore@mail.ru>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.5.1
 Homepage: https://syncthing.net

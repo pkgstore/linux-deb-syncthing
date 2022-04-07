@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     name: "Build"
     steps:
+      - run: echo "PKG_NAME=$( echo '${{ github.repository }}' | awk -F 'linux-deb-' '{print $2}' )" >> $GITHUB_ENV
+        shell: bash
       - uses: pkgstore/github-action-deb-build@main
         with:
           git_repo_src: "https://github.com/${{ github.repository }}.git"
@@ -19,4 +21,4 @@ jobs:
           obs_password: "${{ secrets.OBS_PASSWORD }}"
           obs_token: "${{ secrets.OBS_TOKEN }}"
           obs_project: "home:pkgstore:deb"
-          obs_package: "syncthing"
+          obs_package: "${{ env.PKG_NAME }}"
